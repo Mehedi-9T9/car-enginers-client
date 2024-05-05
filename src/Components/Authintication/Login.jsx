@@ -1,6 +1,7 @@
 import React from 'react';
 import login from '../../../src/assets/assets/images/login/login.svg'
 import { FaFacebook, FaLinkedin, FaGoogle } from "react-icons/fa6";
+import { Link } from 'react-router-dom';
 
 const Login = () => {
     return (
@@ -37,6 +38,7 @@ const Login = () => {
                             <button className='btn btn-circle text-xl'><FaLinkedin /></button>
                             <button className='btn btn-circle text-xl'><FaGoogle /></button>
                         </div>
+                        <p className='text-[#737373] text-center'>New user <Link to="/rejister" className='text-[#FF3811] font-bold font-inter'> Rejister</Link></p>
                     </form>
                 </div>
             </div>
