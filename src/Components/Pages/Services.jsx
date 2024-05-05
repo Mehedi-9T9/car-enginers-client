@@ -11,7 +11,7 @@ const Services = () => {
     }, [])
     console.log(services);
     return (
-        <div className='container mx-auto'>
+        <div className='container mx-auto space-y-5'>
             <p className='text-[#FF3811] text-center font-bold'>Services</p>
             <h2 className='text-center text-5xl font-bold text-black'>Our Service Area</h2>
             <p className='mx-auto text-center w-[700px]'>the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
